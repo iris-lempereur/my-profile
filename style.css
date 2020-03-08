@@ -1,0 +1,78 @@
+body {
+	background-color: #dcd6f7;
+	color:black;
+	font-family: 'Cormorant Garamond';
+	font-weight: 700;
+	font-size: 16px;
+	text-align: center;
+
+}
+h1,h2 { 
+	color: #424874; 
+	font-family: "Quicksand";
+	font-weight: 500;
+}
+a {
+	color: #a6b1e1;
+	text-decoration: none;
+	transition: color .5s ease;
+}
+a:hover {
+	color:purple;
+}
+
+.container{
+	width: 800px; margin: 40px auto;
+		border-radius: 5px;
+		background: #dcd6f7;
+}
+
+.card{
+		width: 750px; margin: 30px auto;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		background: #f4eeff;
+		box-shadow: 0 10px 30px rgba(0,0,0,.2);
+}
+
+.img-smallsq{
+	height: 400px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline > li {
+	display: inline;
+	padding: 0px 0px;
+}
+
+.icon{
+	font-size: 30px;
+}
+
+#picture_dance {
+  	width: 500px;
+	height: 330px;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5)
+}
+
+#picture_profile {
+  	width: 148px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5)
+}
+
+@media (max-width: 740px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 520px) {
+  .container {
+    width: 300px;
+  }
+}
